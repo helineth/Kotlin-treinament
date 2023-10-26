@@ -63,7 +63,7 @@ var listaCompras = arrayOf("Arroz", "Feijão", "Uva", "Banana", "Carne", "Leite"
 
     // ------------ESTRUTURA DE REPETIÇÃO WHILE(ENQUANTO)-----------------
 var indice = 0
-    while (indice <= 8){
+    while (indice <= listaCompras.size -1){
         println(listaCompras[indice])
         indice++
     }
